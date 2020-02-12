@@ -1,14 +1,37 @@
-.body {
-  background-color: pink;
+body {
+  background-color: black;
+  margin-top: 100px;
+  font-family: "Open Sans Condensed", sans-serif;
 }
-
 .box1 {
   width: 600px;
   margin: auto;
+  height: 600px;
+  background: #f9f9f9;
+  text-align: center;
 }
-
+.tittleTodo {
+  color: #ebd8d9;
+  font-size: 95px;
+}
+.maininput {
+  width: 80%;
+  margin: auto;
+}
+.UlMain {
+  width: 80%;
+  margin: auto;
+  list-style: none;
+  font-size: 18px;
+  height: auto;
+}
+.itemLi {
+  color: #bdbdbd;
+  box-shadow: 10px 10px 5px lightgrey;
+}
 .box2 {
   background-color: orange;
+  margin-bottom: 50px;
 }
 
 .box3 {
